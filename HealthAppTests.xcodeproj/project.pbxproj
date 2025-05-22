@@ -35,11 +35,6 @@
 			path = HealthAppTests;
 			sourceTree = "<group>";
 		};
-		C61DEBBD2DCE8E010062BD7F /* HealthAppTestsTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HealthAppTestsTests;
-			sourceTree = "<group>";
-		};
 		C61DEBC72DCE8E010062BD7F /* HealthAppTestsUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = HealthAppTestsUITests;
@@ -76,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				C61DEBAE2DCE8E000062BD7F /* HealthAppTests */,
-				C61DEBBD2DCE8E010062BD7F /* HealthAppTestsTests */,
 				C61DEBC72DCE8E010062BD7F /* HealthAppTestsUITests */,
 				C61DEBAD2DCE8E000062BD7F /* Products */,
 			);
@@ -129,9 +123,6 @@
 			);
 			dependencies = (
 				C61DEBBC2DCE8E010062BD7F /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				C61DEBBD2DCE8E010062BD7F /* HealthAppTestsTests */,
 			);
 			name = HealthAppTestsTests;
 			packageProductDependencies = (
